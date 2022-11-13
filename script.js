@@ -1,4 +1,4 @@
-let myName = "Brian" //let leyword used to asign variable declared as string data type
+var myName = "Brian" //let leyword used to asign variable declared as string data type
 let Age = 22 //varable declared as an integer data type
 
 let married = false //variable declareed as boolean data type
