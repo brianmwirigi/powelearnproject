@@ -6,3 +6,5 @@ let married = false //variable declareed as boolean data type
 var gender = "male" //variable keyword can be used to declare variable
 
 const educationLevel = "Post graduate" // constant keyword used to declare variables that cannot be changed
+
+console.log(myName)
