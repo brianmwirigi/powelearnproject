@@ -7,3 +7,6 @@ p{
     padding: 30px;  /* padding  which is space between border and test*/
     margin: 10px; /* margin is space outside border*/
 }
+.flex-container {
+    display: flex;
+}
