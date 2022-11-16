@@ -55,7 +55,30 @@
             document.getElementById("example").innerHTML = Date();
         }
     </script>
+
     <!--inline javacript-->
+    <hr>
+    <p id="parag1"> this is the first paragraph </p>
+    <p id="parag2"> this is the second paragraph </p>
+    <script type="text/javascript">
+        const paragraph1 = document.getElementById("parag1");
+        console.log(paragraph1.textContent); //can be run in the console log()
+    </script>
+
+    <!--inline javacript-->
+    <hr>
+    <h1 class="h1class"> Popular presidents in africa </h1>
+    <ul class="list">
+        <li> Muammar Gaddafi </li>
+        <li> Nelson Mandels </li>
+        <li> Paul Kagame </li>
+    </ul>
+    <script type="text/javascript">
+        const list = document.querySelector(".list");
+        console.log(list);
+        const AfricaPresidentList = document.querySelectorAll("ul > li");
+        console.log(AfricaPresidentList);
+    </script>
 
 
 </body>
