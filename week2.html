@@ -50,6 +50,7 @@
     <button id="greetingsbtn"> Click to see the current date </button>
     <p id="example"> </p>
     <script>
+        //addEventListener
         document.getElementById("greetingsbtn").addEventListener("click", displayDate);
         function displayDate() {
             document.getElementById("example").innerHTML = Date();
@@ -61,6 +62,7 @@
     <p id="parag1"> this is the first paragraph </p>
     <p id="parag2"> this is the second paragraph </p>
     <script type="text/javascript">
+        //getElementbyID
         const paragraph1 = document.getElementById("parag1");
         console.log(paragraph1.textContent); //can be run in the console log()
     </script>
@@ -74,8 +76,10 @@
         <li> Paul Kagame </li>
     </ul>
     <script type="text/javascript">
+        //query selector 
         const list = document.querySelector(".list");
         console.log(list);
+        //query selector all
         const AfricaPresidentList = document.querySelectorAll("ul > li");
         console.log(AfricaPresidentList);
     </script>
