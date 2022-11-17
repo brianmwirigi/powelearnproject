@@ -107,6 +107,21 @@
 
     </script>
 
+    <!--using style property to change inline CSS style -->
+    <!--inline javacript-->
+    <script type="text/javascript">
+        const h1 = document.querySelector("h1");
+        h1.style.color = "blue";
+    </script>
+
+    <!--using the addEventListener() method to listen to events on the page -->
+    <!--inline javascript-->
+    <hr>
+    <button id="click"> Click me Please </button>
+    <script type="text/javascript">
+        const button = document.getElementById("click");
+        button.addEventListener("click", () => { alert("thank you for clicking me"); });
+    </script>
 
 </body>
 
