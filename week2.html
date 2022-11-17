@@ -47,8 +47,9 @@
     <hr>
     <h2> Javascript addEventListener()</h2>
     <p> This example uses the addEventListener() method to attach a click event ot a button </p>
-    <button id="greetingsbtn"> Click to see the current date </button>
-    <p id="example"> </p>
+    <p id="example">
+        <button id="greetingsbtn"> Click to see the current date </button>
+    </p>
     <script>
         //addEventListener
         document.getElementById("greetingsbtn").addEventListener("click", displayDate);
@@ -82,6 +83,28 @@
         //query selector all
         const AfricaPresidentList = document.querySelectorAll("ul > li");
         console.log(AfricaPresidentList);
+    </script>
+
+    <!--adding new element to hte HTML -->
+    <hr>
+    <h1>Web programming languages </h1>
+    <!--inline javacript-->
+    <script type="text/javascript">
+        let languageList = document.createElement("ul"); //ul element is created using document.createElement() and assigned to a variable languageList
+        document.body.appendChild(languageList); // add <ul> element (languageList) to the document
+
+        let listItem1 = document.createElement("li"); //add an  <li> element inside  <ul> elements using createElement() method 
+        listItem1.textContent = 'HTML'; //text content property us used to add text for the list item
+        languageList.appendChild(listItem1); // add the <li> element into the document
+
+        let listItem2 = document.createElement("li");
+        listItem2.textContent = 'CSS';
+        languageList.appendChild(listItem2);
+
+        let listItem3 = document.createElement("li");
+        listItem3.textContent = 'JAVASCRIPT';
+        languageList.appendChild(listItem3);
+
     </script>
 
 
