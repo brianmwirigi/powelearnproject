@@ -38,6 +38,85 @@
     <!--text in subscript -->
     <p>the chemical symbol of oxygen is H <sub>2</sub> O </p>
     <hr>
+    <!--Lists used to store data or information in web pages in ordered or unorderd form-->
+    <!--list item tag is used to define each item of a list (bulleted form) used in ordered or unordered list -->
+    <!--attributes of <li> tag is used to specify the value of the first item and must be a number and used in ordered list only. subsequent list items will increment the value -->
+    <!--ordered list items defines a list of items in which the order of items matters. ordered list is also called numbered list-->
+    <!--ordering is given by a number scheme, arabic number ,letters, roman numericals-->
+    <!--attributes of ordered list-->
+    <!--reversed attribute is used to specify that the ordered list should be reversed-->
+    <!--start attribute is used to specify the start value of the list-->
+    <!--type attribute is used to specify the type of list item maker. value od attribute is decimsl(default)/lower-roman/upper-roman/lower-alpha/upper-alpha-->
+    <!--value assigne attribute can be 1 or A or i o I (where i and I represent roman number)-->
+    <h1>Example of order fruit list whose value is a "1"</h1>
+    <ol>
+        <li value="1"> Javascript</li>
+        <li>HTML </li>
+        <li> CSS </li>
+        <li>Python </li>
+    </ol>
+    <h1>Example of order fruit list whose type is = "A"</h1>
+    <ol type="A">
+        <li>mango</li>
+        <li>orange</li>
+        <li>pinaepple</li>
+    </ol>
+    <h1>Example of reverse order list </h1>
+    <ol reversed>
+        <li>toyota</li>
+        <li>Mercedes</li>
+        <li>nissan</li>
+    </ol>
+    <h1>Example of ordered list start from 10</h1>
+    <ol start="10">
+        <li>nairobi</li>
+        <Li>meru</Li>
+        <li>nyeri</li>
+    </ol>
+
+    <!-- unordered list defines a list of items in which the order of itmes does not matter-->
+    <!--attributes of unordered list-->
+    <!--list-style-type is used to specify the lullet type that will be used as the list item marker-->
+    <!--value of attribute is none/disc(default)/circle/square-->
+    <h1>Example of un-ordered list in default</h1>
+    <ul>
+        <li>apple </li>
+        <li>Bicycle </li>
+        <li>Cat </li>
+        <li>Dog </li>
+    </ul>
+    <h1>Example of un-ordered list in circle</h1>
+    <ul style="list-style-type:circle;">
+        <li>monday</li>
+        <li>teusday</li>
+        <li>wednesday</li>
+    </ul>
+    <h1>Example of un-ordered list in disk</h1>
+    <ul style="list-style-type:disc;">
+        <li> USIU </li>
+        <li> JKUAT </li>
+        <li> MMU </li>
+    </ul>
+    <h1>Example of un-ordered list in square </h1>
+    <ul style="list-style-type:square;">
+        <li> langata</li>
+        <li> karen </li>
+        <li> bomas </li>
+    </ul>
+    <h1>Example of un-ordered list in none</h1>
+    <ul style="list-style-type:none;">
+        <li>james </li>
+        <li>kevin </li>
+        <li>boston </li>
+    </ul>
+    <!--is a list in which each term contains its description -->
+    <!--tag contains <dt>  (defines name or tern) and <dd>(defines the term) tag-->
+    <h1> Description list</h1>
+    <dt>python:</dt>
+    <dd> it is a high level programming language</dd>
+    <dt>C++:</dt>
+    <dd>it is a low level programming language </dd>
+    <hr>
     <form method="post" action="location and file name">
         this is my form! <p>
             <input type="checkbox" name="tutor" value="y">
